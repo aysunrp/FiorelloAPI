@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aysunrp\\Desktop\\FiorellaAPI\\FiorellaAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A9137B-496D-4640-AD75-C484929B4996}|FiorellaAPI\\FiorellaAPI.csproj|c:\\users\\aysunrp\\desktop\\fiorellaapi\\fiorellaapi\\fiorellaapi\\helpers\\dtos\\slider\\sliderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A9137B-496D-4640-AD75-C484929B4996}|FiorellaAPI\\FiorellaAPI.csproj|solutionrelative:fiorellaapi\\helpers\\dtos\\slider\\sliderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A9137B-496D-4640-AD75-C484929B4996}|FiorellaAPI\\FiorellaAPI.csproj|c:\\users\\aysunrp\\desktop\\fiorellaapi\\fiorellaapi\\fiorellaapi\\helpers\\dtos\\sliderimage\\sliderimagecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A9137B-496D-4640-AD75-C484929B4996}|FiorellaAPI\\FiorellaAPI.csproj|solutionrelative:fiorellaapi\\helpers\\dtos\\sliderimage\\sliderimagecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A9137B-496D-4640-AD75-C484929B4996}|FiorellaAPI\\FiorellaAPI.csproj|c:\\users\\aysunrp\\desktop\\fiorellaapi\\fiorellaapi\\fiorellaapi\\helpers\\dtos\\slider\\slidereditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A9137B-496D-4640-AD75-C484929B4996}|FiorellaAPI\\FiorellaAPI.csproj|solutionrelative:fiorellaapi\\helpers\\dtos\\slider\\slidereditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A9137B-496D-4640-AD75-C484929B4996}|FiorellaAPI\\FiorellaAPI.csproj|c:\\users\\aysunrp\\desktop\\fiorellaapi\\fiorellaapi\\fiorellaapi\\helpers\\dtos\\sliderimage\\sliderimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A9137B-496D-4640-AD75-C484929B4996}|FiorellaAPI\\FiorellaAPI.csproj|solutionrelative:fiorellaapi\\helpers\\dtos\\sliderimage\\sliderimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A9137B-496D-4640-AD75-C484929B4996}|FiorellaAPI\\FiorellaAPI.csproj|c:\\users\\aysunrp\\desktop\\fiorellaapi\\fiorellaapi\\fiorellaapi\\helpers\\dtos\\sliderimage\\sliderimageeditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A9137B-496D-4640-AD75-C484929B4996}|FiorellaAPI\\FiorellaAPI.csproj|solutionrelative:fiorellaapi\\helpers\\dtos\\sliderimage\\sliderimageeditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A9137B-496D-4640-AD75-C484929B4996}|FiorellaAPI\\FiorellaAPI.csproj|c:\\users\\aysunrp\\desktop\\fiorellaapi\\fiorellaapi\\fiorellaapi\\models\\sliderimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A9137B-496D-4640-AD75-C484929B4996}|FiorellaAPI\\FiorellaAPI.csproj|solutionrelative:fiorellaapi\\models\\sliderimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A9137B-496D-4640-AD75-C484929B4996}|FiorellaAPI\\FiorellaAPI.csproj|c:\\users\\aysunrp\\desktop\\fiorellaapi\\fiorellaapi\\fiorellaapi\\helpers\\dtos\\slider\\slidercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A9137B-496D-4640-AD75-C484929B4996}|FiorellaAPI\\FiorellaAPI.csproj|solutionrelative:fiorellaapi\\helpers\\dtos\\slider\\slidercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A9137B-496D-4640-AD75-C484929B4996}|FiorellaAPI\\FiorellaAPI.csproj|c:\\users\\aysunrp\\desktop\\fiorellaapi\\fiorellaapi\\fiorellaapi\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A9137B-496D-4640-AD75-C484929B4996}|FiorellaAPI\\FiorellaAPI.csproj|solutionrelative:fiorellaapi\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SliderImage.cs",
+              "DocumentMoniker": "C:\\Users\\aysunrp\\Desktop\\FiorellaAPI\\FiorellaAPI\\FiorellaAPI\\Models\\SliderImage.cs",
+              "RelativeDocumentMoniker": "FiorellaAPI\\Models\\SliderImage.cs",
+              "ToolTip": "C:\\Users\\aysunrp\\Desktop\\FiorellaAPI\\FiorellaAPI\\FiorellaAPI\\Models\\SliderImage.cs",
+              "RelativeToolTip": "FiorellaAPI\\Models\\SliderImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T08:35:25.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SliderImageEditDto.cs",
+              "DocumentMoniker": "C:\\Users\\aysunrp\\Desktop\\FiorellaAPI\\FiorellaAPI\\FiorellaAPI\\Helpers\\DTOs\\SliderImage\\SliderImageEditDto.cs",
+              "RelativeDocumentMoniker": "FiorellaAPI\\Helpers\\DTOs\\SliderImage\\SliderImageEditDto.cs",
+              "ToolTip": "C:\\Users\\aysunrp\\Desktop\\FiorellaAPI\\FiorellaAPI\\FiorellaAPI\\Helpers\\DTOs\\SliderImage\\SliderImageEditDto.cs",
+              "RelativeToolTip": "FiorellaAPI\\Helpers\\DTOs\\SliderImage\\SliderImageEditDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T08:41:18.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SliderImageDto.cs",
+              "DocumentMoniker": "C:\\Users\\aysunrp\\Desktop\\FiorellaAPI\\FiorellaAPI\\FiorellaAPI\\Helpers\\DTOs\\SliderImage\\SliderImageDto.cs",
+              "RelativeDocumentMoniker": "FiorellaAPI\\Helpers\\DTOs\\SliderImage\\SliderImageDto.cs",
+              "ToolTip": "C:\\Users\\aysunrp\\Desktop\\FiorellaAPI\\FiorellaAPI\\FiorellaAPI\\Helpers\\DTOs\\SliderImage\\SliderImageDto.cs",
+              "RelativeToolTip": "FiorellaAPI\\Helpers\\DTOs\\SliderImage\\SliderImageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T08:41:03.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SliderImageCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\aysunrp\\Desktop\\FiorellaAPI\\FiorellaAPI\\FiorellaAPI\\Helpers\\DTOs\\SliderImage\\SliderImageCreateDto.cs",
+              "RelativeDocumentMoniker": "FiorellaAPI\\Helpers\\DTOs\\SliderImage\\SliderImageCreateDto.cs",
+              "ToolTip": "C:\\Users\\aysunrp\\Desktop\\FiorellaAPI\\FiorellaAPI\\FiorellaAPI\\Helpers\\DTOs\\SliderImage\\SliderImageCreateDto.cs",
+              "RelativeToolTip": "FiorellaAPI\\Helpers\\DTOs\\SliderImage\\SliderImageCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T08:40:49.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Slider.cs",
+              "DocumentMoniker": "C:\\Users\\aysunrp\\Desktop\\FiorellaAPI\\FiorellaAPI\\FiorellaAPI\\Models\\Slider.cs",
+              "RelativeDocumentMoniker": "FiorellaAPI\\Models\\Slider.cs",
+              "ToolTip": "C:\\Users\\aysunrp\\Desktop\\FiorellaAPI\\FiorellaAPI\\FiorellaAPI\\Models\\Slider.cs",
+              "RelativeToolTip": "FiorellaAPI\\Models\\Slider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T08:39:24.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SliderEditDto.cs",
+              "DocumentMoniker": "C:\\Users\\aysunrp\\Desktop\\FiorellaAPI\\FiorellaAPI\\FiorellaAPI\\Helpers\\DTOs\\Slider\\SliderEditDto.cs",
+              "RelativeDocumentMoniker": "FiorellaAPI\\Helpers\\DTOs\\Slider\\SliderEditDto.cs",
+              "ToolTip": "C:\\Users\\aysunrp\\Desktop\\FiorellaAPI\\FiorellaAPI\\FiorellaAPI\\Helpers\\DTOs\\Slider\\SliderEditDto.cs",
+              "RelativeToolTip": "FiorellaAPI\\Helpers\\DTOs\\Slider\\SliderEditDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T08:39:09.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SliderDto.cs",
+              "DocumentMoniker": "C:\\Users\\aysunrp\\Desktop\\FiorellaAPI\\FiorellaAPI\\FiorellaAPI\\Helpers\\DTOs\\Slider\\SliderDto.cs",
+              "RelativeDocumentMoniker": "FiorellaAPI\\Helpers\\DTOs\\Slider\\SliderDto.cs",
+              "ToolTip": "C:\\Users\\aysunrp\\Desktop\\FiorellaAPI\\FiorellaAPI\\FiorellaAPI\\Helpers\\DTOs\\Slider\\SliderDto.cs",
+              "RelativeToolTip": "FiorellaAPI\\Helpers\\DTOs\\Slider\\SliderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T08:38:53.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SliderCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\aysunrp\\Desktop\\FiorellaAPI\\FiorellaAPI\\FiorellaAPI\\Helpers\\DTOs\\Slider\\SliderCreateDto.cs",
+              "RelativeDocumentMoniker": "FiorellaAPI\\Helpers\\DTOs\\Slider\\SliderCreateDto.cs",
+              "ToolTip": "C:\\Users\\aysunrp\\Desktop\\FiorellaAPI\\FiorellaAPI\\FiorellaAPI\\Helpers\\DTOs\\Slider\\SliderCreateDto.cs",
+              "RelativeToolTip": "FiorellaAPI\\Helpers\\DTOs\\Slider\\SliderCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T08:38:42.63Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

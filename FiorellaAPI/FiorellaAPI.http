@@ -1,0 +1,6 @@
+@FiorellaAPI_HostAddress = http://localhost:5209
+
+GET {{FiorellaAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
