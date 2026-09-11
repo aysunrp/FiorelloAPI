@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "htCyfHv9oWHxp2WrgIVh9EARvR2NAPE6ukO6sj7fEns=",
+  "Hash": "UVth+v2ulGcIT/hJ9zIt33esG6MpxsmBoENqgisfh5o=",
   "Source": "FiorellaAPI",
   "BasePath": "_content/FiorellaAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FiorellaAPI\\wwwroot",
+      "Source": "FiorellaAPI",
+      "ContentRoot": "C:\\Users\\aysunrp\\Desktop\\FiorellaAPI\\FiorellaAPI\\FiorellaAPI\\wwwroot\\",
+      "BasePath": "_content/FiorellaAPI",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }

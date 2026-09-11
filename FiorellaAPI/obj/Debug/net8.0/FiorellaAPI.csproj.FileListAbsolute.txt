@@ -146,3 +146,7 @@ C:\Users\aysunrp\Desktop\FiorellaAPI\FiorellaAPI\FiorellaAPI\obj\Debug\net8.0\re
 C:\Users\aysunrp\Desktop\FiorellaAPI\FiorellaAPI\FiorellaAPI\obj\Debug\net8.0\FiorellaAPI.pdb
 C:\Users\aysunrp\Desktop\FiorellaAPI\FiorellaAPI\FiorellaAPI\obj\Debug\net8.0\FiorellaAPI.genruntimeconfig.cache
 C:\Users\aysunrp\Desktop\FiorellaAPI\FiorellaAPI\FiorellaAPI\obj\Debug\net8.0\ref\FiorellaAPI.dll
+C:\Users\aysunrp\Desktop\FiorellaAPI\FiorellaAPI\FiorellaAPI\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\aysunrp\Desktop\FiorellaAPI\FiorellaAPI\FiorellaAPI\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\aysunrp\Desktop\FiorellaAPI\FiorellaAPI\FiorellaAPI\obj\Debug\net8.0\FiorellaAPI.sourcelink.json
+C:\Users\aysunrp\Desktop\FiorellaAPI\FiorellaAPI\FiorellaAPI\bin\Debug\net8.0\FiorellaAPI.staticwebassets.runtime.json

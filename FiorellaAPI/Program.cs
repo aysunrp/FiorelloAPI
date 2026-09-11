@@ -1,5 +1,7 @@
 using FiorellaAPI.Data;
 using FiorellaAPI.Helpers;
+using FiorellaAPI.Services.Interfaces;
+using FiorellaAPI.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<ISliderService, SliderService>();
+builder.Services.AddScoped<IFileService, FileService>();
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(
