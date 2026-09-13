@@ -3,6 +3,7 @@ using FiorellaAPI.Data;
 using FiorellaAPI.Helpers.DTOs.Slider;
 using FiorellaAPI.Models;
 using FiorellaAPI.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace FiorellaAPI.Services
 {
@@ -28,24 +29,42 @@ namespace FiorellaAPI.Services
             await _context.SaveChangesAsync();
         }
 
-        public Task DeleteAsync(int Id)
+        public async Task DeleteAsync(int Id)
         {
-            throw new NotImplementedException();
+            var slider= await _context.Sliders.FirstOrDefaultAsync(x => x.Id == Id);
+            if (slider == null) throw new Exception("Slider not found");
+            _context.Sliders.Remove(slider);
+            await _context.SaveChangesAsync();
         }
 
-        public Task<IEnumerable<SliderDto>> GetAllAsync()
+        public async Task<IEnumerable<SliderDto>> GetAllAsync()
         {
-            throw new NotImplementedException();
+          var sliders= await _context.Sliders.Include(x => x.SliderImages).ToListAsync();
+          return _mapper.Map<IEnumerable<SliderDto>>(sliders);
         }
 
-        public Task<SliderDto> GetByIdAsync(int Id)
+        public async Task<SliderDto> GetByIdAsync(int Id)
         {
-            throw new NotImplementedException();
+            var sliders = await _context.Sliders.Include(x => x.SliderImages).
+                                                 FirstOrDefaultAsync(x => x.Id == Id);
+            return _mapper.Map<SliderDto>(sliders);
         }
 
-        public Task UpdateAsync(int Id, SliderEditDto slider)
+        public async Task UpdateAsync(int Id, SliderEditDto slider)
         {
-            throw new NotImplementedException();
+            var sliders = await _context.Sliders.FirstOrDefaultAsync(x => x.Id == Id);
+
+            if (sliders == null) throw new Exception("Slider not found");
+
+            _mapper.Map(slider, sliders);
+
+            if (slider.Image != null)
+            {
+                string fileName = await _fileService.UploadAsync(slider.Image, "images");
+                sliders.Image = fileName;
+            }
+            await _context.SaveChangesAsync();
         }
     }
-}
+    }
+

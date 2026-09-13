@@ -11,7 +11,7 @@ namespace FiorellaAPI.Helpers
         {
             CreateMap<Slider, SliderDto>();
             CreateMap<SliderCreateDto, Slider>();
-            CreateMap<SliderEditDto, SliderEditDto>();
+            CreateMap<SliderEditDto, Slider>();
 
             CreateMap<SliderImage, SliderImageDto>();
             CreateMap<SliderImageCreateDto, SliderImage>();

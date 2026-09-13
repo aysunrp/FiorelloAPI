@@ -24,5 +24,78 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.SliderController",
+    "Method": "Delete",
+    "RelativePath": "api/admin/Slider/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.SliderController",
+    "Method": "GetAll",
+    "RelativePath": "api/admin/Slider/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.SliderController",
+    "Method": "GetById",
+    "RelativePath": "api/admin/Slider/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.SliderController",
+    "Method": "Update",
+    "RelativePath": "api/admin/Slider/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

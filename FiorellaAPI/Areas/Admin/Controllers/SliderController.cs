@@ -20,5 +20,30 @@ namespace FiorellaAPI.Areas.Admin.Controllers
             await _sliderService.CreateAsync(request);
             return Ok();
         }
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var sliders=await _sliderService.GetAllAsync();
+            return Ok(sliders);
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetById(int Id)
+        {
+            var slider = await _sliderService.GetByIdAsync(Id);
+            return Ok(slider);
+            
+        }
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int Id)
+        {
+            await _sliderService.DeleteAsync(Id);
+            return Ok();
+        }
+        [HttpPut]
+        public async Task<IActionResult> Update(int Id,[FromForm] SliderEditDto request)
+        {
+            await _sliderService.UpdateAsync(Id, request);
+            return Ok();
+        }
     }
 }

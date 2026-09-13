@@ -14,7 +14,7 @@ namespace FiorellaAPI.Services
         public async Task<string> UploadAsync(IFormFile file, string folder)
         {
             string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
-            string path = Path.Combine(_env.WebRootPath, "images", fileName);
+            string path = Path.Combine(_env.WebRootPath,folder, fileName);
             using var stream = new FileStream(path, FileMode.Create);
             await file.CopyToAsync(stream);
             return fileName;
