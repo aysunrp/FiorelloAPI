@@ -97,5 +97,109 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.SliderImageController",
+    "Method": "Create",
+    "RelativePath": "api/admin/SliderImage/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "SliderId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.SliderImageController",
+    "Method": "Delete",
+    "RelativePath": "api/admin/SliderImage/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.SliderImageController",
+    "Method": "GetAll",
+    "RelativePath": "api/admin/SliderImage/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.SliderImageController",
+    "Method": "GetById",
+    "RelativePath": "api/admin/SliderImage/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.SliderImageController",
+    "Method": "Update",
+    "RelativePath": "api/admin/SliderImage/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Client.Controllers.SliderController",
+    "Method": "GetAll",
+    "RelativePath": "api/client/Slider/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Client.Controllers.SliderImageController",
+    "Method": "GetAll",
+    "RelativePath": "api/client/SliderImage/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

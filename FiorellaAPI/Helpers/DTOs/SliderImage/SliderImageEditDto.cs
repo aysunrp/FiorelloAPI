@@ -2,6 +2,6 @@
 {
     public class SliderImageEditDto
     {
-        public string Image { get; set; }
+        public IFormFile Image { get; set; }
     }
 }
