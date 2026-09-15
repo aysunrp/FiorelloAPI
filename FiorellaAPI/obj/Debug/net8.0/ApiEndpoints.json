@@ -1,5 +1,84 @@
 [
   {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.CategoryController",
+    "Method": "Create",
+    "RelativePath": "api/admin/Category/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FiorellaAPI.Helpers.DTOs.Category.CategoryCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.CategoryController",
+    "Method": "Delete",
+    "RelativePath": "api/admin/Category/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.CategoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/admin/Category/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.CategoryController",
+    "Method": "GetById",
+    "RelativePath": "api/admin/Category/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.CategoryController",
+    "Method": "Update",
+    "RelativePath": "api/admin/Category/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "FiorellaAPI.Helpers.DTOs.Category.CategoryEditDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.SliderController",
     "Method": "Create",
     "RelativePath": "api/admin/Slider/Create",
@@ -177,6 +256,32 @@
       {
         "Name": "Image",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Client.Controllers.CategoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/client/Category/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Client.Controllers.CategoryController",
+    "Method": "GetById",
+    "RelativePath": "api/client/Category/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
         "IsRequired": false
       }
     ],

@@ -1,5 +1,4 @@
 ﻿using FiorellaAPI.Services.Interfaces;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FiorellaAPI.Areas.Client.Controllers

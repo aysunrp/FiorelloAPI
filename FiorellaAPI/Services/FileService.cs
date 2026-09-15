@@ -1,5 +1,4 @@
 ﻿using FiorellaAPI.Services.Interfaces;
-using Microsoft.AspNetCore.Hosting;
 
 namespace FiorellaAPI.Services
 {

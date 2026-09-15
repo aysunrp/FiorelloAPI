@@ -1,7 +1,6 @@
 ﻿using FiorellaAPI.Services.Interfaces;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Razor.TagHelpers;
+
 
 namespace FiorellaAPI.Areas.Client.Controllers
 {

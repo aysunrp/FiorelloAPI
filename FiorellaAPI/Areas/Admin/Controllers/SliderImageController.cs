@@ -1,6 +1,5 @@
 ﻿using FiorellaAPI.Helpers.DTOs.SliderImage;
 using FiorellaAPI.Services.Interfaces;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FiorellaAPI.Areas.Admin.Controllers
