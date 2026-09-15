@@ -39,7 +39,7 @@ namespace FiorellaAPI.Services
 
         public async Task<CategoryDto> GetByIdAsync(int Id)
         {
-            var category = await _context.Categories.FirstOrDefaultAsync(x => x.Id == Id);
+            var category = await _context.Categories.Include(x => x.Products).FirstOrDefaultAsync(x => x.Id == Id);
             return _mapper.Map<CategoryDto>(category);
         }
 
