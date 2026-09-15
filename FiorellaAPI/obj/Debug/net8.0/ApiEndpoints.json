@@ -79,6 +79,120 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.ProductController",
+    "Method": "Create",
+    "RelativePath": "api/admin/Product/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.ProductController",
+    "Method": "Delete",
+    "RelativePath": "api/admin/Product/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.ProductController",
+    "Method": "GetAll",
+    "RelativePath": "api/admin/Product/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.ProductController",
+    "Method": "GetById",
+    "RelativePath": "api/admin/Product/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.ProductController",
+    "Method": "Update",
+    "RelativePath": "api/admin/Product/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FiorellaAPI.Areas.Admin.Controllers.SliderController",
     "Method": "Create",
     "RelativePath": "api/admin/Slider/Create",
@@ -275,6 +389,32 @@
     "ContainingType": "FiorellaAPI.Areas.Client.Controllers.CategoryController",
     "Method": "GetById",
     "RelativePath": "api/client/Category/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Client.Controllers.ProductController",
+    "Method": "GetAll",
+    "RelativePath": "api/client/Product/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FiorellaAPI.Areas.Client.Controllers.ProductController",
+    "Method": "GetById",
+    "RelativePath": "api/client/Product/GetById",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

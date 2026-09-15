@@ -13,6 +13,7 @@ builder.Services.AddScoped<ISliderService, SliderService>();
 builder.Services.AddScoped<ISliderImageService, SliderImageService>();
 builder.Services.AddScoped<IFileService, FileService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(
